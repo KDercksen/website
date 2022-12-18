@@ -1,3 +1,5 @@
+import { FiMail } from "react-icons/fi";
+
 export default function Home() {
   return (
     <div className="flex max-w-2xl flex-col font-light text-center space-y-5">
@@ -17,10 +19,10 @@ export default function Home() {
         </a>
         ). My main interests are entity linking, search and text generation.
       </p>
-      <p>
-        Contact:{" "}
+      <div className="flex flex-row justify-center items-center space-x-2">
+        <FiMail />
         <span className="text-sm font-mono">mail AT koendercksen DOT com</span>
-      </p>
+      </div>
       <h1 className="pt-5 font-bold text-xl">Links</h1>
       <div className="flex flex-col space-y-1">
         <a

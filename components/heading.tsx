@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaLinkedin, FaOrcid } from "react-icons/fa";
 import headshot from "../public/images/headshot.jpg";
 
 export default function Header() {
@@ -24,6 +24,9 @@ export default function Header() {
           </a>
           <a href="https://linkedin.com/in/koen-dercksen-083a835b/">
             <FaLinkedin />
+          </a>
+          <a href="https://orcid.org/0000-0003-2571-9102">
+            <FaOrcid />
           </a>
         </div>
       </div>
