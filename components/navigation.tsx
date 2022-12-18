@@ -1,5 +1,6 @@
 import { ReactElement } from "react";
 import { HiAcademicCap, HiHome } from "react-icons/hi";
+import Link from "next/link";
 
 type ButtonProps = {
   text: string;
@@ -9,13 +10,13 @@ type ButtonProps = {
 
 function NavButton({ text, icon, href }: ButtonProps) {
   return (
-    <a
+    <Link
       className="flex flex-row font-semibold hover:text-blue-700 space-x-1 items-center p-1 rounded-md hover:bg-slate-100"
       href={href}
     >
       {icon ? icon : ""}
       <span>{text}</span>
-    </a>
+    </Link>
   );
 }
 
