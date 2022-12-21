@@ -16,16 +16,32 @@ export default function Header() {
           PhD candidate at Radboud University Nijmegen
         </h1>
         <div className="flex flex-row items-center space-x-2">
-          <a href="https://github.com/KDercksen/">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/KDercksen/"
+          >
             <FaGithub />
           </a>
-          <a href="https://twitter.com/DercksenKoen/">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://twitter.com/DercksenKoen/"
+          >
             <FaTwitter />
           </a>
-          <a href="https://linkedin.com/in/koen-dercksen-083a835b/">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://linkedin.com/in/koen-dercksen-083a835b/"
+          >
             <FaLinkedin />
           </a>
-          <a href="https://orcid.org/0000-0003-2571-9102">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://orcid.org/0000-0003-2571-9102"
+          >
             <FaOrcid />
           </a>
         </div>

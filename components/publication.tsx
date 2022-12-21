@@ -25,6 +25,8 @@ export default function Publication({
       </div>
       <a
         className="justify-self-end pt-2 hover:underline font-extralight text-xs text-blue-600"
+        target="_blank"
+        rel="noopener noreferrer"
         href={link}
       >
         Click to read more

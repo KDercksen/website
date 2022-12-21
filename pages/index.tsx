@@ -13,6 +13,8 @@ export default function Home() {
         presentation of Dutch medical reports (
         <a
           className="text-blue-600 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
           href="https://ai-for-health.nl/projects/mihracle"
         >
           MIHRACLE
@@ -27,18 +29,24 @@ export default function Home() {
       <div className="flex flex-col space-y-1">
         <a
           className="text-blue-600 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
           href="https://ai-for-health.nl"
         >
           AI for Health
         </a>
         <a
           className="text-blue-600 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
           href="https://diagnijmegen.nl"
         >
           DIAG Nijmegen
         </a>
         <a
           className="text-blue-600 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
           href="https://informagus.nl"
         >
           Informagus
