@@ -1,5 +1,4 @@
-import { ReactElement } from "react";
-import { HiAcademicCap, HiHome } from "react-icons/hi";
+import { HiAcademicCap, HiChat, HiHome } from "react-icons/hi";
 import Link from "next/link";
 
 function NavButton({ text, icon, href }) {
@@ -23,6 +22,7 @@ export default function Navigation() {
         icon={<HiAcademicCap />}
         href="/publications"
       />
+      <NavButton text="Blog" icon={<HiChat />} href="/blog" />
     </div>
   );
 }

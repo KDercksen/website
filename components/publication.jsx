@@ -21,7 +21,7 @@ export default function Publication({
         rel="noopener noreferrer"
         href={link}
       >
-        Click to read more
+        click to read more
       </a>
     </div>
   );
