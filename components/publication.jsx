@@ -1,18 +1,10 @@
-type PublicationProps = {
-  authors: string;
-  title: string;
-  published_at: string;
-  description: string;
-  link: string;
-};
-
 export default function Publication({
   authors,
   title,
   published_at,
   description,
   link,
-}: PublicationProps) {
+}) {
   return (
     <div className="flex flex-col text-left justify-between rounded-md border-2 p-2">
       <div>

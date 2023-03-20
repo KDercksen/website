@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaGithub, FaTwitter, FaLinkedin, FaOrcid } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaOrcid } from "react-icons/fa";
 import headshot from "../public/images/headshot.jpg";
 
 export default function Header() {
@@ -22,13 +22,6 @@ export default function Header() {
             href="https://github.com/KDercksen/"
           >
             <FaGithub />
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://twitter.com/DercksenKoen/"
-          >
-            <FaTwitter />
           </a>
           <a
             target="_blank"

@@ -2,13 +2,7 @@ import { ReactElement } from "react";
 import { HiAcademicCap, HiHome } from "react-icons/hi";
 import Link from "next/link";
 
-type ButtonProps = {
-  text: string;
-  icon?: ReactElement;
-  href: string;
-};
-
-function NavButton({ text, icon, href }: ButtonProps) {
+function NavButton({ text, icon, href }) {
   return (
     <Link
       className="flex flex-row font-semibold hover:text-blue-700 space-x-1 items-center p-1 rounded-md hover:bg-slate-100"
