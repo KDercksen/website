@@ -28,8 +28,8 @@ export default function Home() {
       <p>
         At World Brain Scholar, we work on innovative AI-based solutions for
         academic publishing companies. My work primarily focuses on enhancing
-        the peer review processes in publishing using state-of-the-art
-        information retrieval and natural language processing techniques.
+        the publishing process using state-of-the-art information retrieval and
+        natural language processing techniques.
       </p>
       <p>
         My PhD research (currently being finalized) focused on finding and
