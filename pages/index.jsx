@@ -59,7 +59,7 @@ export default function Home() {
           rel="noopener noreferrer"
           href="https://ai-for-health.nl"
         >
-          AI for Health (no longer activate)
+          AI for Health (no longer active)
         </a>
         <a
           className="text-blue-600 hover:underline"
