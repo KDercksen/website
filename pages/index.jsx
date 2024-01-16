@@ -5,12 +5,36 @@ export default function Home() {
     <div className="flex max-w-2xl flex-col font-light text-center space-y-5">
       <h1 className="pt-5 font-bold text-3xl">Hi there!</h1>
       <p>
-        I am currently employed as a PhD candidate at the Radboud University
-        Nijmegen.
+        I am currently employed as a researcher at the{" "}
+        <a
+          className="text-blue-600 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://ru.nl"
+        >
+          Radboud University Nijmegen
+        </a>{" "}
+        and{" "}
+        <a
+          className="text-blue-600 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://world-brain.eu/scholar"
+        >
+          World Brain Scholar
+        </a>
+        .
       </p>
       <p>
-        My research aims to find and develop solutions for patient-friendly
-        presentation of Dutch medical reports (
+        At World Brain Scholar, we work on innovative AI-based solutions for
+        academic publishing companies. My work primarily focuses on enhancing
+        the peer review processes in publishing using state-of-the-art
+        information retrieval and natural language processing techniques.
+      </p>
+      <p>
+        My PhD research (currently being finalized) focused on finding and
+        developing solutions for patient-friendly presentation of Dutch medical
+        reports (
         <a
           className="text-blue-600 hover:underline"
           target="_blank"
@@ -19,7 +43,9 @@ export default function Home() {
         >
           MIHRACLE
         </a>
-        ). My main interests are entity linking, search and text generation.
+        ). My main research interests are information retrieval, natural
+        language processing, and in particular the application of large language
+        models.
       </p>
       <div className="flex flex-row justify-center items-center space-x-2">
         <FiMail />
@@ -33,7 +59,7 @@ export default function Home() {
           rel="noopener noreferrer"
           href="https://ai-for-health.nl"
         >
-          AI for Health
+          AI for Health (no longer activate)
         </a>
         <a
           className="text-blue-600 hover:underline"
@@ -50,6 +76,22 @@ export default function Home() {
           href="https://informagus.nl"
         >
           Informagus
+        </a>
+        <a
+          className="text-blue-600 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://ru.nl"
+        >
+          Radboud University Nijmegen
+        </a>
+        <a
+          className="text-blue-600 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://world-brain.eu/scholar"
+        >
+          World Brain Scholar
         </a>
       </div>
     </div>
