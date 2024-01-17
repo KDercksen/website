@@ -13,7 +13,7 @@ export default function Header() {
       <div className="flex flex-col items-start text-left space-y-1">
         <h1 className="text-3xl font-normal">Koen Dercksen</h1>
         <h1 className="text-md font-extralight text-slate-600">
-          PhD candidate at Radboud University Nijmegen
+          AI Researcher at Radboud University Nijmegen / World Brain Scholar
         </h1>
         <div className="flex flex-row items-center space-x-2">
           <a
