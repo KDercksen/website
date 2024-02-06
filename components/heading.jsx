@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaGithub, FaLinkedin, FaOrcid } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaOrcid, FaCalendarPlus } from "react-icons/fa";
 import headshot from "../public/images/headshot.jpg";
 
 export default function Header() {
@@ -36,6 +36,13 @@ export default function Header() {
             href="https://orcid.org/0000-0003-2571-9102"
           >
             <FaOrcid />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://cal.com/kdercksen"
+          >
+            <FaCalendarPlus />
           </a>
         </div>
       </div>
