@@ -10,7 +10,7 @@ export default function Publication({
       <div>
         <p className="text-xs font-thin border-3 rounded-md">{published_at}</p>
         <p className="font-medium text-base">{title}</p>
-        <p className="font-light text-xs text-slate-400">{authors}</p>
+        <p className="font-light text-xs text-slate-400 truncate">{authors}</p>
         <p className="pt-2 font-extralight text-sm text-slate-600">
           {description}
         </p>

@@ -1,9 +1,17 @@
-import { ReactNode } from "react";
-import Heading from "./heading";
-import Header from "./header";
-import Navigation from "./navigation";
-import Footer from "./footer";
 import { Inter } from "@next/font/google";
+import Metadata from "next";
+import Footer from "../components/footer";
+import Header from "../components/header";
+import Heading from "../components/heading";
+import Navigation from "../components/navigation";
+
+import "@/styles/globals.css";
+
+export const metadata = Metadata({
+  title: "Koen Dercksen - Homepage",
+  description:
+    "Website containing personal information for Koen Dercksen. Publications, contact details, projects and more.",
+});
 
 const inter = Inter({ subsets: ["latin"] });
 

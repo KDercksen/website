@@ -1,5 +1,5 @@
-import blogposts from "../public/blogposts.json";
-import Blogpost from "../components/blogpost";
+import blogposts from "@/public/blogposts.json";
+import Blogpost from "@/components/blogpost";
 
 export default function Blog() {
   return (

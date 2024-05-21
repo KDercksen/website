@@ -1,5 +1,5 @@
-import publications from "../public/publications.json";
-import Publication from "../components/publication";
+import publications from "@/public/publications.json";
+import Publication from "@/components/publication";
 
 export default function Publications() {
   return (
