@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FaGithub, FaLinkedin, FaOrcid, FaCalendarPlus } from "react-icons/fa";
-import headshot from "../public/images/headshot.jpg";
+import headshot from "@/public/images/headshot.jpg";
 
 export default function Header() {
   return (

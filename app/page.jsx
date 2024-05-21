@@ -2,7 +2,7 @@ import { FiMail } from "react-icons/fi";
 
 export default function Home() {
   return (
-    <div className="flex max-w-2xl flex-col font-light text-center space-y-5">
+    <div className="flex flex-col font-light items-center space-y-5">
       <h1 className="pt-5 font-bold text-3xl">Hi there!</h1>
       <p>
         I am currently employed as a researcher at the{" "}

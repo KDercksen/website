@@ -1,5 +1,12 @@
 [
   {
+    "authors": "Ilia Kuznetsov, Osama Mahammed Afzal, Koen Dercksen, Nils Dycke, Alexander Goldberg, Tom Hope, Dirk Hovy, Jonathan K. Kummerfeld, Anne Lauscher, Kevin Leyton-Brown, Sheng Lu, Mausam, Margot Mieskes, Aurelie Neveol, Danish Pruthi, Lizhen Qu, Roy Schwartz, Noah A. Smith, Thamar Solorio, Jingyan Wang, Xiaodan Zhu, Anna Rogers, Nihar B. Shah, Iryna Gurevych",
+    "title": "What can natural language processing do for peer review?",
+    "published_at": "arXiv 2024",
+    "description": "This paper was a result of the Dagstuhl seminar on peer review held in 2024. It provides an overview of the current state of peer review and where NLP techniques might interfere to improve the process.",
+    "link": "https://arxiv.org/abs/2405.06563"
+  },
+  {
     "authors": "K. Dercksen, A.P. de Vries, B. van Ginneken",
     "title": "SimpleRad: patient-friendly Dutch radiology reports",
     "published_at": "ECIR 2023",
@@ -30,7 +37,7 @@
   {
     "authors": "T. Schoegje, C. Kamphuis, K. Dercksen, D. Hiemstra, T. Pieters, A. P. de Vries",
     "title": "Exploring task-based query expansion at the TREC-COVID track",
-    "published_at": "arXiv",
+    "published_at": "arXiv 2020",
     "description": "Exploring how to generate effective queries based on search tasks for the TREC-COVID track.",
     "link": "https://doi.org/10.48550/arXiv.2010.12674"
   },
