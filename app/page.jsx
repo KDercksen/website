@@ -19,7 +19,7 @@ export default function Home() {
           className="text-blue-600 hover:underline"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://world-brain.eu/scholar"
+          href="https://world-brain-scholar.eu"
         >
           World Brain Scholar
         </a>
@@ -89,7 +89,7 @@ export default function Home() {
           className="text-blue-600 hover:underline"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://world-brain.eu/scholar"
+          href="https://world-brain-scholar.eu"
         >
           World Brain Scholar
         </a>
