@@ -2,12 +2,15 @@ import Image from "next/image";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { cn } from "@/lib/utils";
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
+import {
+  StaticImageData,
+  StaticImport,
+} from "next/dist/shared/lib/get-img-props";
 import Link from "next/link";
 import { Mail, Linkedin, Github, GraduationCap } from "lucide-react";
 
 interface PersonalInfoProps {
-  imagePath: string | StaticImport;
+  imagePath: string | StaticImageData;
   name: string;
   avatarFallback: string;
   title: string;
@@ -35,9 +38,13 @@ export default function PersonalInfo({
     <Card className={cn("px-4 py-2 shadow-lg rounded-xl", className)}>
       <CardHeader className="flex flex-col items-center gap-4">
         <Avatar className="h-32 w-32">
-          <AvatarImage asChild>
-            <Image src={imagePath} alt={name} width={128} height={128} />
-          </AvatarImage>
+          <Image
+            className="aspect-square h-full w-full"
+            src={imagePath}
+            alt={name}
+            width={128}
+            height={128}
+          />
           <AvatarFallback>{avatarFallback}</AvatarFallback>
         </Avatar>
         <div className="text-center space-y-2">
