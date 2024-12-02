@@ -61,8 +61,8 @@ const PersonalInfoBox = () => (
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center min-h-screen justify-center w-full flex-grow relative">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.5)_2px,transparent_2px)] bg-[length:32px_32px] [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_70%)]" />
+    <div className="bg-[radial-gradient(circle_at_center,hsl(var(--background))_0%,black_100%)] flex flex-col items-center min-h-screen justify-center w-full flex-grow relative">
+      <div className="animate-[pulse_10s_ease-in-out_infinite] absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.5)_1px,transparent_1px)] bg-[length:32px_32px] [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_70%)]" />
       <div className="max-w-screen-sm px-8 lg:px-16 py-8 relative">
         <div className="grid grid-cols-1 gap-4">
           <PersonalInfoBox />
