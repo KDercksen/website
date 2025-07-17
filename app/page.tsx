@@ -25,9 +25,20 @@ const PersonalInfoBox = () => (
     </PersonalInfoHeader>
     <PersonalInfoContent>
       <PersonalInfoDescription>
-        I am an AI researcher with a focus on natural language processing and
-        information retrieval. I have a background in academia, and I am
-        currently building cool products with AI.
+        I am the founder of{" "}
+        <Link
+          href="https://www.avirai.com"
+          className="font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text relative hover:after:w-full after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300"
+        >
+          avirai
+        </Link>
+        , a company dedicated to leveraging AI for innovative business
+        solutions.
+      </PersonalInfoDescription>
+      <PersonalInfoDescription>
+        I am an AI researcher and developer with a focus on natural language
+        processing and information retrieval. I have a background in academia,
+        and I am currently building cool products with AI.
       </PersonalInfoDescription>
       <div className="flex flex-row w-full items-center justify-center gap-4">
         <Link
